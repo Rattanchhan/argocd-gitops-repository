@@ -6,6 +6,6 @@ patches:
   - path: ingress-patch.yaml
 images:
   - name: project-02-react
-    newName: ghcr.io/REPLACE_OWNER/project-02-react
-    digest: sha256:REPLACE_DIGEST
+    newName: ghcr.io/rattanchhan/project-02-react
+    digest: sha256:7075bd566d02e177dd52abd5618aeebb79aed61f6df196d22ed8f2706b5d18fb
 
