@@ -9,10 +9,6 @@ service:
 ports:
   web:
     nodePort: 30080
-    redirections:
-      entryPoint:
-        to: websecure
-        scheme: https
   websecure:
     nodePort: 30443
     tls: {enabled: true}
