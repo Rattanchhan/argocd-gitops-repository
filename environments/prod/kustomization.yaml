@@ -5,6 +5,6 @@ resources: [../../base]
 patches: [{path: replicas.yaml}, {path: ingress-patch.yaml}]
 images:
   - name: project-02-react
-    newName: ghcr.io/REPLACE_OWNER/project-02-react
-    digest: sha256:REPLACE_DIGEST
+    newName: ghcr.io/rattanchhan/project-02-react
+    digest: sha256:143d60c4c1dbac2b89258802c37ee0922698c402c0d422a6079b6a704e0b7397
 
